@@ -12,6 +12,8 @@ console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);
 
+// avoide these type of code -----x
+
 console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
