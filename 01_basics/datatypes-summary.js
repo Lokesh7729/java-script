@@ -38,3 +38,23 @@ console.log(typeof scoreValue);
 
 //NULL => Object
 
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack (Primitive), Heap (Non - Primitive)
+
+let myYoutubename = "lokeshchauhandotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let user = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
