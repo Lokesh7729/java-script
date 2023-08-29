@@ -25,3 +25,33 @@ console.log( typeof stringNumber);
 
 
 
+// *************************************** Opeerations *************************************** 
+
+let value = 3
+let nagValue = -value
+// console.log(nagValue);
+
+// console.log(2=2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = "Lokesh"
+let str3 = str1+str2
+
+// console.log(str3);
+// console.log("1"+1);
+// console.log(1 + "2");
+// console.log("1"+ 2 + 2);
+// console.log( 1 + 2 + "2");
+
+
+console.log();
+console.log(+true);
+
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
