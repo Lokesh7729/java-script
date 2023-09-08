@@ -71,3 +71,32 @@ console.log(obj3)
  console.log(Object.entries(tinderUser));
 
  console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+ // this is how we destructure 
+
+ const course = {
+    coursename: "js in hindi",
+    price: "999",
+    couseInstructor: "lokesh"
+ }
+
+//  couse.couseInstructor
+
+const {couseInstructor:instructor} = course
+console.log(instructor);
+
+
+
+
+//API's
+
+// {
+//     "name:"lokesh",
+//     "cousename:"js is hindi",
+//     "price:"free",
+// }
+
+
+
+
